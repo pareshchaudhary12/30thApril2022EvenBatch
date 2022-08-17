@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Trial Test(failed)" parallel="classes">
+    <classes>
+      <class name="Parameterization_CrossBrowserTesting.BrowsersTest3">
+        <methods>
+          <include name="Crossbrowser"/>
+          <include name="verifycurrenturl"/>
+          <include name="verifyPasswordfield"/>
+          <include name="clickLoginBtn"/>
+          <include name="verifyUsernamefield"/>
+          <include name="verifyPageTitle"/>
+        </methods>
+      </class> <!-- Parameterization_CrossBrowserTesting.BrowsersTest3 -->
+      <class name="Parameterization_CrossBrowserTesting.BrowsersTest2">
+        <methods>
+          <include name="Crossbrowser"/>
+          <include name="verifyPasswordfield"/>
+          <include name="verifyUsernamefield"/>
+          <include name="clickLoginBtn"/>
+          <include name="verifycurrenturl"/>
+          <include name="verifyPageTitle"/>
+        </methods>
+      </class> <!-- Parameterization_CrossBrowserTesting.BrowsersTest2 -->
+      <class name="Parameterization_CrossBrowserTesting.BrowserTests1">
+        <methods>
+          <include name="verifycurrenturl"/>
+          <include name="Crossbrowser"/>
+          <include name="clickLoginBtn"/>
+          <include name="verifyPasswordfield"/>
+          <include name="verifyUsernamefield"/>
+          <include name="verifyPageTitle"/>
+        </methods>
+      </class> <!-- Parameterization_CrossBrowserTesting.BrowserTests1 -->
+    </classes>
+  </test> <!-- Trial Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
