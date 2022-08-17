@@ -71,7 +71,7 @@ public class LoginPage {
 		Assert.assertTrue(login_btn.isEnabled(), "Fb Login Button is not Enabled on login page");
 		login_btn.click();
 		Reporter.log("clickFacebookLoginPageLoginBtn",true);
-	}
+	} // methods  are not ended properly. use  more assertions
 	
 	public void verifyFacebookLoginPageFooterLinks() {
 		Assert.assertEquals(footerlinks.size(), 31);
@@ -79,5 +79,5 @@ public class LoginPage {
 			System.out.println(footerlinks.get(i).getText());
 		}
 		Reporter.log("verifyFacebookLoginPageLogo",true);
-	}
+	} //add the comments properly.
 }
